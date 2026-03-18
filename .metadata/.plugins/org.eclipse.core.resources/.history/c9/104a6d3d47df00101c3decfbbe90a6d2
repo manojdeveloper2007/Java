@@ -1,0 +1,21 @@
+package Problems;
+//Given String is Palindrome or not
+
+public class Reverse {
+	public static void main(String[] args) {
+		String name="fadam";
+		int left=name.charAt(0);
+		int right=name.charAt(name.length()-1);
+		boolean isPalindrome=true;
+		
+		while(left<right) {
+			if(left!=right) {
+				isPalindrome=false;
+			}
+			left++;
+			right--;
+		}
+			
+		System.out.println(isPalindrome);
+		}
+}

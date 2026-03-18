@@ -1,0 +1,9 @@
+package First_Program;
+
+public class Hello {
+	public static void main(String[] args) {
+//		Display the Output
+		System.out.println("Hello , World");
+	}
+
+}
